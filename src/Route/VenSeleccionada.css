@@ -1,0 +1,72 @@
+.venta-seleccionada-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Para centrar verticalmente en toda la pantalla */
+  }
+  
+  .venta-seleccionada {
+    width: 90%;
+    max-width: 600px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .titulo {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .cliente-nombre {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .info-container {
+    background: #f4f4f9;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .info-container p {
+    font-size: 1.1rem;
+    margin: 8px 0;
+    color: #333;
+  }
+  
+  .descripcion-container {
+    background: #e8f4f8;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    max-width: 100%; /* Para evitar que se desborde */
+    max-height: 150px; /* Limita la altura y permite scroll si es necesario */
+    overflow-y: auto;
+    word-wrap: break-word; /* Rompe palabras largas */
+    overflow-wrap: break-word;
+    white-space: pre-wrap; /* Mantiene saltos de línea */
+  }
+  
+  .descripcion-container p {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  .no-venta {
+    padding: 20px;
+    background-color: #ffe6e6;
+    color: #e74c3c;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+  }
+  
