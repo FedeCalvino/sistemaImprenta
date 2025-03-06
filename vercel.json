@@ -1,0 +1,44 @@
+{
+    "rewrites": [
+      {
+        "source": "/articulos",
+        "destination": "http://200.40.89.254:3034/articulosVerduleria"
+      },
+      {
+        "source": "/VentasImprenta",
+        "destination": "http://200.40.89.254:3034/VentasImprenta"
+      },
+      {
+        "source": "/SaveImprenta",
+        "destination": "http://localhost:3034/SaveImprenta"
+      },
+      {
+        "source": "/ClientesImprenta",
+        "destination": "http://200.40.89.254:3034/ClientesImprenta"
+      },{
+        "source": "/estado/:id",
+        "destination": "http://localhost:3034/:id"
+      },
+      {
+        "source": "/StockP",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/OrdenesP",
+        "destination": "/index.html"
+      },{
+        "source": "/Cierre",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/CatologoP",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/Extra",
+        "destination": "/index.html"
+      }
+      
+    ]
+  }
+  

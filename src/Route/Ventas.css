@@ -1,0 +1,212 @@
+/* General Styles */
+.container {
+  width: 100%;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.title {
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Search Input */
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.search-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
+}
+
+/* Venta Cards */
+.Venta1, .Venta2, .Venta0, .Venta3 {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 500px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+}
+.Venta0 {
+  color:red;
+}
+.Venta1 {
+  color:blue;
+}
+
+.Venta2 {
+  color:green;
+}
+.Venta3 {
+  color:rgb(1, 104, 1)
+}
+
+.venta-card {
+  font-size: 28px;
+}
+.SELECC{
+  background-color: #0056b3;
+}
+
+.venta-card1 {
+  font-size: 20px;
+  color: blue;
+}
+.venta-card21 {
+  font-size: 20px;
+  background-color: blue;
+}
+
+
+.venta-card2 {
+  font-size: 16px;
+}
+
+.venta-card:hover, .venta-card1:hover, .venta-card2:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+}
+
+/* Day Header */
+.day-header {
+  background-color: #007bff;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Venta Seleccionada (Alineado a la derecha) */
+.venta-seleccionada {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinea todo el contenido a la derecha */
+  margin-top: 20px;
+  width: 600px;
+  background-color: #fff;
+}
+
+.venta-seleccionada h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.venta-seleccionada div {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 500px;
+  text-align: center;
+}
+
+/* Botones */
+.tamano {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  border: 1px solid #007bff;
+}
+
+.tamano:hover {
+  background-color: #007bff;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Lote Container */
+.lote-container {
+  margin-bottom: 32px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.lote-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 16px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 8px;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.volver-btn {
+  background-color: #007bff;
+}
+
+.volver-btn:hover {
+  background-color: #0056b3;
+}
+
+.pdf-btn {
+  background-color: #28a745;
+}
+
+.pdf-btn:hover {
+  background-color: #1e7e34;
+}
+
+/* Ordenes Container */
+.ordenes-container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.orden-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #fff;
+}
