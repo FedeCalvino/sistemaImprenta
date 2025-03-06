@@ -20,11 +20,11 @@
         "destination": "http://200.40.89.254:3034/:id"
       },
       {
-        "source": "/StockP",
+        "source": "/Ventas",
         "destination": "/index.html"
       },
       {
-        "source": "/OrdenesP",
+        "source": "/CrearVenta",
         "destination": "/index.html"
       },{
         "source": "/Cierre",
