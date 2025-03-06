@@ -10,14 +10,14 @@
       },
       {
         "source": "/SaveImprenta",
-        "destination": "http://localhost:3034/SaveImprenta"
+        "destination": "http://200.40.89.254:3034/SaveImprenta"
       },
       {
         "source": "/ClientesImprenta",
         "destination": "http://200.40.89.254:3034/ClientesImprenta"
       },{
         "source": "/estado/:id",
-        "destination": "http://localhost:3034/:id"
+        "destination": "http://200.40.89.254:3034/:id"
       },
       {
         "source": "/StockP",
